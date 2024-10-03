@@ -10,7 +10,7 @@ import altair as alt
 st.title("Dashboard Analisis Penyewaan Sepeda")
 
 # Load data csv
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 
 # Konversi 'season' dan 'workday'
 season_labels = ['Spring', 'Summer', 'Fall', 'Winter']
